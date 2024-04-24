@@ -1,0 +1,27 @@
+Device Address: e4:fd:b6:f6:a0:0a
+Device Name: AB0206002000000568
+
+Number of recorded Connections: 1
+
+Connection 1:
+Access Address: 0x50656490
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: no
+Association Model: -
+Pairing Packets as Expected: -
+
+Encryption: no
+Encryption Setup Detected: -
+
+
+
+Privacy Protection:
+
+Device Address Type: random
+Random Address Type: static
+
+

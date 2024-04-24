@@ -1,0 +1,63 @@
+1711182650.6704605
+23-Mar-2024 09:30:50 (+0100) :Alecsa: DEBUG: Started PID 93741
+23-Mar-2024 09:30:50 (+0100) :Alecsa: DEBUG: Namespace(capture_name='test2', capture=True, sniffer_device='/dev/ttyACM1', evaluate_pcap=False, sniffed_pcap=None, device_address=None)
+23-Mar-2024 09:30:50 (+0100) :Alecsa: DEBUG: sniffer capture
+23-Mar-2024 09:30:50 (+0100) :Alecsa: DEBUG: Log started at Sat Mar 23 09:30:50 2024
+23-Mar-2024 09:30:50 (+0100) :Alecsa: DEBUG: Extcap version 3.4
+23-Mar-2024 09:30:50 (+0100) :Alecsa: DEBUG: Sniffer created
+23-Mar-2024 09:30:50 (+0100) :Alecsa: DEBUG: Software version: 4.1.1
+23-Mar-2024 09:30:50 (+0100) :Alecsa: DEBUG: sniffer started
+23-Mar-2024 09:30:50 (+0100) :Alecsa: DEBUG: scanning started
+23-Mar-2024 09:30:50 (+0100) :Alecsa: DEBUG: Scanning all advertising devices.
+23-Mar-2024 09:30:50 (+0100) :Alecsa: DEBUG: control loop
+23-Mar-2024 09:30:57 (+0100) :Alecsa: DEBUG: Following c3:2c:92:0a:56:8f  public 
+23-Mar-2024 09:31:04 (+0100) :Alecsa: DEBUG: Monitoring connection of devicec3:2c:92:0a:56:8f  public 
+23-Mar-2024 09:31:15 (+0100) :Alecsa: DEBUG: Monitoring of device c3:2c:92:0a:56:8f  public  completed.
+23-Mar-2024 09:31:19 (+0100) :Alecsa: DEBUG: Evaluating device c3:2c:92:0a:56:8f  public 
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: 
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: Reading Pcap File. This may take a while.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: Finished reading of Pcap File.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: Starting evaluation of device c3:2c:92:0a:56:8f.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: Device Name: "Ela Tag 1"
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: 
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: Determining recorded connections.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: Number of recorded connections for device address c3:2c:92:0a:56:8f: 0.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: No recorded connection for the selected device found.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: Use the 'monitor_connection' command to monitor a connection.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: 
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: |                                        PRIVACY EVALUATION                                        |
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: 
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: BLE Devices are identified using a 48 bit long address.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: If such a devices is in advertising state, it continuously broadcasts
+this address.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: If this address is not changed, a user carrying such a device can be tracked
+by tracking the devices address.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: This is a threat to the users privacy.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: 
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: Addresses can have different types in order to avoid user tracking.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: By determining the type of the address, it is possible to determine the 
+risk of being tracked by the devices address.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: 
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: Determining BLE Address Type.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: BLE Address Type can be found in the packet header of advertising packets.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: Analyzing packet headers to determine the BLE Address type.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: BLE Address Type determined.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: BLE Address Type: Public.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: A Public Device Address is a unique 48 Bit identifier.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: It is composed of a company identifier and a company intern unique number for the device.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: This address does never change.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: 
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: Impacts on the User:
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: If a user carries this device with him, and the device is in advertising mode,
+user tracking is possible by tracking the device's address.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: 
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: Finished privacy evaluation.
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+23-Mar-2024 09:31:19 (+0100) :Evaluation: INFO: 
+23-Mar-2024 09:31:27 (+0100) :Alecsa: DEBUG: exiting control loop
+23-Mar-2024 09:31:27 (+0100) :Alecsa: DEBUG: Tearing down
+23-Mar-2024 09:31:27 (+0100) :Alecsa: DEBUG: Exiting
+23-Mar-2024 09:31:27 (+0100) :Alecsa: DEBUG: main exit PID 93741

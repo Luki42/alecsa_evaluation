@@ -1,0 +1,27 @@
+Device Address: e6:85:cb:69:ef:54
+Device Name: 
+
+Number of recorded Connections: 1
+
+Connection 1:
+Access Address: 0xaf9aa2e1
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: yes
+Association Model: LE Legacy Pairing Just Works
+Pairing Packets as Expected: yes
+
+Encryption: yes
+Encryption Setup Detected: yes
+
+
+
+Privacy Protection:
+
+Device Address Type: random
+Random Address Type: static
+
+

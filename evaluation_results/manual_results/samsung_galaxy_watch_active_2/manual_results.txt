@@ -1,0 +1,27 @@
+Device Address: e4:b4:6b:5b:4d:c1
+Device Name: Galaxy Watch Active2(26E0) LE
+
+Number of recorded Connections: 1
+
+Connection 1:
+Access Address: 0x50656b20
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: no
+Association Model: -
+Pairing Packets as Expected: -
+
+Encryption: no
+Encryption Setup Detected: -
+
+
+
+Privacy Protection:
+
+Device Address Type: random
+Random Address Type: static
+
+

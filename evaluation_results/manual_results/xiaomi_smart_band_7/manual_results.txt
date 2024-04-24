@@ -1,0 +1,27 @@
+Device Address: fd:60:ea:3b:c6:a0
+Device Name: Xiaomi Smart Band 7 C6A0
+
+Number of recorded Connections: 1
+
+Connection 1:
+Access Address: 0xaf9aa2e1
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: yes
+Association Model: LE Legacy Pairing Just Works
+Pairing Packets as Expected: yes
+
+Encryption: yes
+Encryption Setup Detected: yes
+
+
+
+Privacy Protection:
+
+Device Address Type: random
+Random Address Type: static
+
+

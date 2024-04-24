@@ -1,0 +1,27 @@
+Device Address: f2:1a:77:fc:72:f2
+Device Name: Versa 3
+
+Number of recorded Connections: 1
+
+Connection 1:
+Access Address: 0xaf9a8461
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: yes
+Association Model: LE Secure Connections Just Works
+Pairing Packets as Expected: yes
+
+Encryption: yes
+Encryption Setup Detected: yes
+
+
+
+Privacy Protection:
+
+Device Address Type: random
+Random Address Type: static
+
+

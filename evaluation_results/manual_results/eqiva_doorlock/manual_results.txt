@@ -1,0 +1,27 @@
+Device Address: 00:1a:22:09:88:d7
+Device Name: KEY-BLE
+
+Number of recorded Connections: 1
+
+Connection 1:
+Access Address: 0x50656229
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: no
+Association Model: -
+Pairing Packets as Expected: -
+
+Encryption: no
+Encryption Setup Detected: -
+
+
+
+Privacy Protection:
+
+Device Address Type: public
+Random Address Type: -
+
+

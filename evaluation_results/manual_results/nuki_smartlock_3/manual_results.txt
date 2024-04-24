@@ -1,0 +1,55 @@
+Device Address: 54:d2:72:db:a3:ad
+Device Name: Nuki_2FDBA3AD
+
+Number of recorded Connections: 3
+
+Connection 1:
+Access Address: 0x5065726b
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: no
+Association Model: -
+Pairing Packets as Expected: -
+
+Encryption: no
+Encryption Setup Detected: -
+
+Connection 2:
+Access Address: 0xaf9a8515
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: no
+Association Model: -
+Pairing Packets as Expected: -
+
+Encryption: no
+Encryption Setup Detected: -
+
+Connection 3:
+Access Address: 0x50654557
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: no
+Association Model: -
+Pairing Packets as Expected: -
+
+Encryption: no
+Encryption Setup Detected: -
+
+
+
+Privacy Protection:
+
+Device Address Type: public
+Random Address Type: -
+
+

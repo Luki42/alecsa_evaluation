@@ -1,0 +1,27 @@
+Device Address: 82:77:16:fd:26:ff
+Device Name: Redmi Watch 2 Lite 26FF
+
+Number of recorded Connections: 1
+
+Connection 1:
+Access Address: 0x50655518
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: yes
+Association Model: LE Secure Connections Just Works
+Pairing Packets as Expected: yes
+
+Encryption: yes
+Encryption Setup Detected: yes
+
+
+
+Privacy Protection:
+
+Device Address Type: public
+Random Address Type: -
+
+

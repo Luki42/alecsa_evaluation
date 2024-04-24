@@ -1,0 +1,55 @@
+Device Address: 54:d2:72:12:21:f2
+Device Name: Nuki_Fob_371221F2
+
+Number of recorded Connections: 1
+
+Connection 1:
+Access Address: 0x50655c29
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: no
+Association Model: -
+Pairing Packets as Expected: -
+
+Encryption: no
+Encryption Setup Detected: -
+
+Connection 2:
+Access Address: 0xaf9ab2e4
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: no
+Association Model: -
+Pairing Packets as Expected: -
+
+Encryption: no
+Encryption Setup Detected: -
+
+Connection 3:
+Access Address: 0x5065752b
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: no
+Association Model: -
+Pairing Packets as Expected: -
+
+Encryption: no
+Encryption Setup Detected: -
+
+
+
+Privacy Protection:
+
+Device Address Type: public
+Random Address Type: -
+
+

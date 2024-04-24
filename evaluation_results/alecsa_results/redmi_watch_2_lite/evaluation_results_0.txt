@@ -1,0 +1,194 @@
+
+
+____________________________________________________________________________________________________
+|                                                                                                  |
+|                                                                                                  |
+|                                       EVALUATION RESULTS                                         |
+|                                                                                                  |
+|__________________________________________________________________________________________________|
+
+
+Reading Pcap File. This may take a while.
+Finished reading of Pcap File.
+Starting evaluation of device 82:77:16:fd:26:ff.
+Device Name: "Redmi Watch 2 Lite 26FF"
+
+Determining recorded connections.
+Connection detected.
+Access Address of the Connection is: 0xaf9aa4d0.
+Communicating devices:
+Central device address: 5d:ba:64:a4:3e:2b.
+Peripheral device address: 82:77:16:fd:26:ff.
+Number of recorded connections for device address 82:77:16:fd:26:ff: 1.
+Alecsa will now start to analyze the recorded connection.
+
+
+----------------------------------------------------------------------------------------------------
+Starting evaluation of connection: 0xaf9aa4d0.
+----------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------------
+|                                         PAIRING PROCESS                                          |
+----------------------------------------------------------------------------------------------------
+
+Searching for pairing process.
+Detected a pairing process.
+
+----------------------------------------------------------------------------------------------------
+|                                         PAIRING PHASE 1                                          |
+----------------------------------------------------------------------------------------------------
+
+Pairing Phase 1 detected.
+During Pairing Phase 1, the devices exchange information needed for determining an association 
+model which is then used for generating and exchanging pairing secrets.
+The confidentiality of the connection is determined by the used association model.
+The devices exchange the needed information and then every device uses the information of both 
+devices to determine the association model following a standard procedure.
+Following data is exchanged and used to determine the association model:
+1.  Should the Legacy Pairing mechanism or the Secure Connections mechanism be used.
+    This is determined by the SC Flag.
+    Secure Connections mechanism is only used if both devices set this flag. 
+    Otherwise Legacy Pairing mechanism is used.
+2.  Do the devices use Out of Band data.
+    This is determined by the OoB Flag.
+    If the devices make use of Out of Band data depends on the used mechanism. 
+    If Secure Connections is used, it is enough if one device sets this flag.
+    If Legacy Pairing is used, both devices have to set this flag in order to 
+    make the devices use an Out of Band association model.
+3.  Is at least one of the devices requesting protection against Man in the Middle attacks.
+    This is determined by the MitM Flag.
+    If at least one of the devices sets this flag, the devices use the exchanged 
+    IO capabilities for determining an association model. 
+    Otherwise the simplest association model 'Just Works' is used.
+4.  Which IO capabilities do the devices have.
+    This is determined by the IO capability field.
+    Every device provides its input and output capabilities. 
+    Depending on these capabilities an association model is chosen.
+
+Starting Pairing Phase 1 analysis.
+Pairing information exchanged during pairing phase 1:
+
+Security Mechanism:
+      Central Device:    SC Flag set.
+      Peripheral Device: SC Flag set.
+    ->Secure Connections mechanism is used since both devices have set the SC Flag.
+
+Out of Band Data Present:
+      Central Device:    OoB Data Flag not set.
+      Peripheral Device: OoB Data Flag not set.
+    ->Out of Band association model is not used since both of the devices have not
+      set the OoB Data Flag.
+
+Man in the Middle:
+      Central Device:    MitM Flag set.
+      Peripheral Device: MitM Flag set.
+    ->Devices determine association model based on the IO capabilities since at least 
+      one of the devices has set the MitM Flag.
+
+IO capabilities of the devices:
+      Central Device:    Keyboard Display.
+      Peripheral Device: No Input No Output.
+
+Determine used association model.
+
+Secure Connections mechanism is used.
+Out of Band Data is not used.
+Man in the Middle protection is requested.
+-> Determining association model based on IO capabilities of the devices.
+The used association model for this connection is: 
+
+LE Secure Connections: Just Works
+
+----------------------------------------------------------------------------------------------------
+|                                         PAIRING PHASE 2                                          |
+----------------------------------------------------------------------------------------------------
+
+During pairing phase 2, the following packets are expected for this association model:
+SMP Pairing Public Key Packet: Count: 2
+SMP Pairing Diffie Hellman Key Check Packet: Count: 2
+SMP Pairing Confirm Packet: Count: 1
+SMP Pairing Random Packet: Count: 2
+
+The following packets were found:
+SMP Pairing Public Key Packet: Count: 2
+SMP Pairing Confirm Packet: Count: 1
+SMP Pairing Random Packet: Count: 2
+SMP Pairing Diffie Hellman Key Check Packet: Count: 2
+
+Evaluation of pairing phase 2 finished.
+The packets found in this phase are as expected.
+No errors during pairing phase 2 detected.
+
+----------------------------------------------------------------------------------------------------
+|                                           ENCRYPTION                                             |
+----------------------------------------------------------------------------------------------------
+
+Encryption process detected.
+The following packets were found:
+Encrypt Request Packet
+Encrypt Response Packet
+The encryption process is started.
+The devices communicate encrypted.
+
+Evaluation of encryption process finished with no errors.
+
+----------------------------------------------------------------------------------------------------
+|                                        CONNECTION RESULTS                                        |
+----------------------------------------------------------------------------------------------------
+
+Pairing:
+
+Pairing process was executed successfully and no errors were detected.
+
+The used association model for this connection is: 
+LE Secure Connections: Just Works
+Under the assumption that the pairing process of this connection is monitored, protection of 
+the connection is as follows:
+The connection is protected against passive eavesdropping attacks.
+The connection is not protected against man-in-the-middle attacks.
+
+
+Encryption:
+
+A complete encryption process was detected.
+After pairing, the devices started communicating encrypted.
+
+
+----------------------------------------------------------------------------------------------------
+Finished evaluation of connection: 0xaf9aa4d0.
+----------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------------
+|                                        PRIVACY EVALUATION                                        |
+----------------------------------------------------------------------------------------------------
+
+BLE Devices are identified using a 48 bit long address.
+If such a devices is in advertising state, it continuously broadcasts
+this address.
+If this address is not changed, a user carrying such a device can be tracked
+by tracking the devices address.
+This is a threat to the users privacy.
+
+Addresses can have different types in order to avoid user tracking.
+By determining the type of the address, it is possible to determine the 
+risk of being tracked by the devices address.
+
+Determining BLE Address Type.
+BLE Address Type can be found in the packet header of advertising packets.
+Analyzing packet headers to determine the BLE Address type.
+BLE Address Type determined.
+BLE Address Type: Public.
+A Public Device Address is a unique 48 Bit identifier.
+It is composed of a company identifier and a company intern unique number for the device.
+This address does never change.
+
+Impacts on the User:
+If a user carries this device with him, and the device is in advertising mode,
+user tracking is possible by tracking the device's address.
+
+----------------------------------------------------------------------------------------------------
+Finished privacy evaluation.
+----------------------------------------------------------------------------------------------------
+

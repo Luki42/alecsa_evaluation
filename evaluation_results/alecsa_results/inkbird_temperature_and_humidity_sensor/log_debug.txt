@@ -1,0 +1,126 @@
+1711036182.0073175
+21-Mar-2024 16:49:42 (+0100) :Alecsa: DEBUG: Started PID 64984
+21-Mar-2024 16:49:42 (+0100) :Alecsa: DEBUG: Namespace(capture_name='test2', capture=True, sniffer_device='/dev/ttyACM1-3.6', baudrate=None, evaluate_pcap=False, sniffed_pcap=None, device_address=None)
+21-Mar-2024 16:49:42 (+0100) :Alecsa: DEBUG: sniffer capture
+21-Mar-2024 16:49:42 (+0100) :Alecsa: DEBUG: Log started at Thu Mar 21 16:49:42 2024
+21-Mar-2024 16:49:42 (+0100) :Alecsa: DEBUG: Extcap version 3.6
+21-Mar-2024 16:49:42 (+0100) :Alecsa: DEBUG: Sniffer created
+21-Mar-2024 16:49:42 (+0100) :Alecsa: DEBUG: Software version: 4.1.1
+21-Mar-2024 16:49:42 (+0100) :Alecsa: DEBUG: sniffer started
+21-Mar-2024 16:49:42 (+0100) :Alecsa: DEBUG: scanning started
+21-Mar-2024 16:49:42 (+0100) :Alecsa: DEBUG: Scanning all advertising devices.
+21-Mar-2024 16:49:42 (+0100) :Alecsa: DEBUG: control loop
+21-Mar-2024 16:49:55 (+0100) :Alecsa: DEBUG: Following 49:22:07:07:01:19  public 
+21-Mar-2024 16:50:06 (+0100) :Alecsa: DEBUG: Monitoring connection of device49:22:07:07:01:19  public 
+21-Mar-2024 16:50:32 (+0100) :Alecsa: DEBUG: Monitoring of device 49:22:07:07:01:19  public  completed.
+21-Mar-2024 16:50:38 (+0100) :Alecsa: DEBUG: Evaluating device 49:22:07:07:01:19  public 
+21-Mar-2024 16:50:38 (+0100) :Evaluation: INFO: 
+21-Mar-2024 16:50:38 (+0100) :Evaluation: INFO: Reading Pcap File. This may take a while.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Finished reading of Pcap File.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Starting evaluation of device 49:22:07:07:01:19.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Device Name: "sps"
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: 
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Determining recorded connections.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Connection detected.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Access Address of the Connection is: 0x50656aa1.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Communicating devices:
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Central device address: 4d:3d:32:07:56:d3.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Peripheral device address: 49:22:07:07:01:19.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Number of recorded connections for device address 49:22:07:07:01:19: 1.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Alecsa will now start to analyze the recorded connection.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: 
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: 
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Starting evaluation of connection: 0x50656aa1.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: 
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: 
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: ----------------------------------------------------------------------------------------------------
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: |                                         PAIRING PROCESS                                          |
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: ----------------------------------------------------------------------------------------------------
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: 
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: Searching for pairing process.
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: No pairing process detected.
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: For Pairing the SMP protocol is used.
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: No SMP packets found.
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: Either the devices do not pair or a non standard pairing procedure is used.
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: 
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: ----------------------------------------------------------------------------------------------------
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: |                                           ENCRYPTION                                             |
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: ----------------------------------------------------------------------------------------------------
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: 
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: No encryption process detected.
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: No packets found which would be needed to start encrypted communication between 
+the devices.
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: Either the devices communicate unencrypted or use a non standard encryption procedure.
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: If the devices communicate unencrypted, every person within receivable range 
+of your devices having a BLE monitoring device can read the data your 
+devices transmit.
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: There is no confidentiality protection for this connection.
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: If the devices use a non standard protocol for encryption, the confidentiality 
+depends on the strength of the used protocol and the correctness of 
+its implementation.
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: 
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: Evaluation of encryption process finished.
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: No encryption process was detected.
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: 
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: ----------------------------------------------------------------------------------------------------
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: |                                        CONNECTION RESULTS                                        |
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: ----------------------------------------------------------------------------------------------------
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: 
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: Pairing:
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: 
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: No pairing process detected.
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: 
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: 
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: Encryption:
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: 
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: No encryption process detected.
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: 
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: 
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: No pairing process was found and no encryption process was detected.
+21-Mar-2024 16:50:39 (+0100) :ConnectionEvaluator: 1348823713: INFO: Either the devices use a complete non standard procedure for pairing and encryption
+or there is no pairing and encryption used.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: 
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: 
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Finished evaluation of connection: 0x50656aa1.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: 
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: 
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: |                                        PRIVACY EVALUATION                                        |
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: 
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: BLE Devices are identified using a 48 bit long address.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: If such a devices is in advertising state, it continuously broadcasts
+this address.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: If this address is not changed, a user carrying such a device can be tracked
+by tracking the devices address.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: This is a threat to the users privacy.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: 
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Addresses can have different types in order to avoid user tracking.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: By determining the type of the address, it is possible to determine the 
+risk of being tracked by the devices address.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: 
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Determining BLE Address Type.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: BLE Address Type can be found in the packet header of advertising packets.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Analyzing packet headers to determine the BLE Address type.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: BLE Address Type determined.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: BLE Address Type: Public.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: A Public Device Address is a unique 48 Bit identifier.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: It is composed of a company identifier and a company intern unique number for the device.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: This address does never change.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: 
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Impacts on the User:
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: If a user carries this device with him, and the device is in advertising mode,
+user tracking is possible by tracking the device's address.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: 
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: Finished privacy evaluation.
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+21-Mar-2024 16:50:39 (+0100) :Evaluation: INFO: 
+21-Mar-2024 16:50:51 (+0100) :Alecsa: DEBUG: exiting control loop
+21-Mar-2024 16:50:51 (+0100) :Alecsa: DEBUG: Tearing down
+21-Mar-2024 16:50:51 (+0100) :Alecsa: DEBUG: Exiting
+21-Mar-2024 16:50:51 (+0100) :Alecsa: DEBUG: main exit PID 64984

@@ -1,0 +1,14 @@
+Device Address: c3:2c:92:0a:56:8f
+Device Name: Ela Tag 1
+
+Number of recorded Connections: 0
+
+
+
+
+Privacy Protection:
+
+Device Address Type: public
+Random Address Type: -
+
+

@@ -1,0 +1,27 @@
+Device Address: 54:d2:72:29:c0:1e
+Device Name: Nuki_Bridge_3429C01E
+
+Number of recorded Connections: 1
+
+Connection 1:
+Access Address: 0x50657a51
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: no
+Association Model: -
+Pairing Packets as Expected: -
+
+Encryption: no
+Encryption Setup Detected: -
+
+
+
+Privacy Protection:
+
+Device Address Type: public
+Random Address Type: -
+
+

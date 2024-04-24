@@ -1,0 +1,216 @@
+1711121098.9393928
+22-Mar-2024 16:24:58 (+0100) :Alecsa: DEBUG: Started PID 84362
+22-Mar-2024 16:24:58 (+0100) :Alecsa: DEBUG: Namespace(capture_name='test2', capture=True, sniffer_device='/dev/ttyACM1', evaluate_pcap=False, sniffed_pcap=None, device_address=None)
+22-Mar-2024 16:24:58 (+0100) :Alecsa: DEBUG: sniffer capture
+22-Mar-2024 16:24:58 (+0100) :Alecsa: DEBUG: Log started at Fri Mar 22 16:24:58 2024
+22-Mar-2024 16:24:58 (+0100) :Alecsa: DEBUG: Extcap version 3.4
+22-Mar-2024 16:24:59 (+0100) :Alecsa: DEBUG: Sniffer created
+22-Mar-2024 16:24:59 (+0100) :Alecsa: DEBUG: Software version: 4.1.1
+22-Mar-2024 16:24:59 (+0100) :Alecsa: DEBUG: sniffer started
+22-Mar-2024 16:24:59 (+0100) :Alecsa: DEBUG: scanning started
+22-Mar-2024 16:24:59 (+0100) :Alecsa: DEBUG: Scanning all advertising devices.
+22-Mar-2024 16:24:59 (+0100) :Alecsa: DEBUG: control loop
+22-Mar-2024 16:25:40 (+0100) :Alecsa: DEBUG: Following 70:4a:0e:c9:2d:d3  public 
+22-Mar-2024 16:25:45 (+0100) :Alecsa: DEBUG: Monitoring connection of device70:4a:0e:c9:2d:d3  public 
+22-Mar-2024 16:26:15 (+0100) :Alecsa: DEBUG: Monitoring of device 70:4a:0e:c9:2d:d3  public  completed.
+22-Mar-2024 16:26:19 (+0100) :Alecsa: DEBUG: Evaluating device 70:4a:0e:c9:2d:d3  public 
+22-Mar-2024 16:26:19 (+0100) :Evaluation: INFO: 
+22-Mar-2024 16:26:19 (+0100) :Evaluation: INFO: Reading Pcap File. This may take a while.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Finished reading of Pcap File.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Starting evaluation of device 70:4a:0e:c9:2d:d3.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Device Name: "WifiConfigurator"
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: 
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Determining recorded connections.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Connection detected.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Access Address of the Connection is: 0xaf9ab2ed.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Communicating devices:
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Central device address: 41:d2:f6:64:40:43.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Peripheral device address: 70:4a:0e:c9:2d:d3.
+22-Mar-2024 16:26:21 (+0100) :Connection: 0xaf9ab2ed: DEBUG: Pairing Request packet found.
+22-Mar-2024 16:26:21 (+0100) :Connection: 0xaf9ab2ed: DEBUG: Pairing Response packet found.
+22-Mar-2024 16:26:21 (+0100) :Connection: 0xaf9ab2ed: DEBUG: Pairing Public Key packet found.
+22-Mar-2024 16:26:21 (+0100) :Connection: 0xaf9ab2ed: DEBUG: Pairing Public Key packet found.
+22-Mar-2024 16:26:21 (+0100) :Connection: 0xaf9ab2ed: DEBUG: Pairing Confirm packet found.
+22-Mar-2024 16:26:21 (+0100) :Connection: 0xaf9ab2ed: DEBUG: Pairing Random packet found.
+22-Mar-2024 16:26:21 (+0100) :Connection: 0xaf9ab2ed: DEBUG: Pairing Random packet found.
+22-Mar-2024 16:26:21 (+0100) :Connection: 0xaf9ab2ed: DEBUG: Pairing DH-Key Check packet found.
+22-Mar-2024 16:26:21 (+0100) :Connection: 0xaf9ab2ed: DEBUG: Pairing DH-Key Check packet found.
+22-Mar-2024 16:26:21 (+0100) :Connection: 0xaf9ab2ed: DEBUG: Encrypt Request packet found.
+22-Mar-2024 16:26:21 (+0100) :Connection: 0xaf9ab2ed: DEBUG: Encrypt Response packet found.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Number of recorded connections for device address 70:4a:0e:c9:2d:d3: 1.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Alecsa will now start to analyze the recorded connection.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: 
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: 
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Starting evaluation of connection: 0xaf9ab2ed.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: |                                         PAIRING PROCESS                                          |
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Searching for pairing process.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Detected a pairing process.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: |                                         PAIRING PHASE 1                                          |
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Pairing Phase 1 detected.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: During Pairing Phase 1, the devices exchange information needed for determining an association 
+model which is then used for generating and exchanging pairing secrets.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: The confidentiality of the connection is determined by the used association model.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: The devices exchange the needed information and then every device uses the information of both 
+devices to determine the association model following a standard procedure.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Following data is exchanged and used to determine the association model:
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 1.  Should the Legacy Pairing mechanism or the Secure Connections mechanism be used.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:     This is determined by the SC Flag.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:     Secure Connections mechanism is only used if both devices set this flag. 
+    Otherwise Legacy Pairing mechanism is used.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 2.  Do the devices use Out of Band data.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:     This is determined by the OoB Flag.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:     If the devices make use of Out of Band data depends on the used mechanism. 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:     If Secure Connections is used, it is enough if one device sets this flag.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:     If Legacy Pairing is used, both devices have to set this flag in order to 
+    make the devices use an Out of Band association model.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 3.  Is at least one of the devices requesting protection against Man in the Middle attacks.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:     This is determined by the MitM Flag.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:     If at least one of the devices sets this flag, the devices use the exchanged 
+    IO capabilities for determining an association model. 
+    Otherwise the simplest association model 'Just Works' is used.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 4.  Which IO capabilities do the devices have.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:     This is determined by the IO capability field.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:     Every device provides its input and output capabilities. 
+    Depending on these capabilities an association model is chosen.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Starting Pairing Phase 1 analysis.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Pairing information exchanged during pairing phase 1:
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Security Mechanism:
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:       Central Device:    SC Flag set.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:       Peripheral Device: SC Flag set.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:     ->Secure Connections mechanism is used since both devices have set the SC Flag.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Out of Band Data Present:
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:       Central Device:    OoB Data Flag not set.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:       Peripheral Device: OoB Data Flag not set.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:     ->Out of Band association model is not used since both of the devices have not
+      set the OoB Data Flag.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Man in the Middle:
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:       Central Device:    MitM Flag not set.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:       Peripheral Device: MitM Flag not set.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:     ->Devices will use 'Just Works' association model since none of the devices has
+     set the Mitm Flag.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: IO capabilities of the devices:
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:       Central Device:    Keyboard Display.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO:       Peripheral Device: No Input No Output.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Determine used association model.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Secure Connections mechanism is used.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Out of Band Data is not used.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Man in the Middle protection is not requested.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Using the simplest association model 'Just Works'.
+22-Mar-2024 16:26:21 (+0100) :AssociationModels_SC_JW: INFO: The used association model for this connection is: 
+22-Mar-2024 16:26:21 (+0100) :AssociationModels_SC_JW: INFO: 
+22-Mar-2024 16:26:21 (+0100) :AssociationModels_SC_JW: INFO: LE Secure Connections: Just Works
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: |                                         PAIRING PHASE 2                                          |
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: During pairing phase 2, the following packets are expected for this association model:
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: SMP Pairing Public Key Packet: Count: 2
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: SMP Pairing Diffie Hellman Key Check Packet: Count: 2
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: SMP Pairing Confirm Packet: Count: 1
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: SMP Pairing Random Packet: Count: 2
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: The following packets were found:
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: SMP Pairing Public Key Packet: Count: 2
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: SMP Pairing Confirm Packet: Count: 1
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: SMP Pairing Random Packet: Count: 2
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: SMP Pairing Diffie Hellman Key Check Packet: Count: 2
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Evaluation of pairing phase 2 finished.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: The packets found in this phase are as expected.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: No errors during pairing phase 2 detected.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: |                                           ENCRYPTION                                             |
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Encryption process detected.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: The following packets were found:
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Encrypt Request Packet
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Encrypt Response Packet
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: The encryption process is started.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: The devices communicate encrypted.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Evaluation of encryption process finished with no errors.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: |                                        CONNECTION RESULTS                                        |
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Pairing:
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Pairing process was executed successfully and no errors were detected.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :AssociationModels_SC_JW: INFO: The used association model for this connection is: 
+22-Mar-2024 16:26:21 (+0100) :AssociationModels_SC_JW: INFO: LE Secure Connections: Just Works
+22-Mar-2024 16:26:21 (+0100) :AssociationModels_SC_JW: INFO: Under the assumption that the pairing process of this connection is monitored, protection of 
+the connection is as follows:
+22-Mar-2024 16:26:21 (+0100) :AssociationModels_SC_JW: INFO: The connection is protected against passive eavesdropping attacks.
+22-Mar-2024 16:26:21 (+0100) :AssociationModels_SC_JW: INFO: The connection is not protected against man-in-the-middle attacks.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: Encryption:
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: 
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: A complete encryption process was detected.
+22-Mar-2024 16:26:21 (+0100) :ConnectionEvaluator: 2946151149: INFO: After pairing, the devices started communicating encrypted.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: 
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: 
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Finished evaluation of connection: 0xaf9ab2ed.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: 
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: 
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: |                                        PRIVACY EVALUATION                                        |
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: 
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: BLE Devices are identified using a 48 bit long address.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: If such a devices is in advertising state, it continuously broadcasts
+this address.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: If this address is not changed, a user carrying such a device can be tracked
+by tracking the devices address.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: This is a threat to the users privacy.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: 
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Addresses can have different types in order to avoid user tracking.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: By determining the type of the address, it is possible to determine the 
+risk of being tracked by the devices address.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: 
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Determining BLE Address Type.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: BLE Address Type can be found in the packet header of advertising packets.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Analyzing packet headers to determine the BLE Address type.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: BLE Address Type determined.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: BLE Address Type: Public.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: A Public Device Address is a unique 48 Bit identifier.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: It is composed of a company identifier and a company intern unique number for the device.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: This address does never change.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: 
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Impacts on the User:
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: If a user carries this device with him, and the device is in advertising mode,
+user tracking is possible by tracking the device's address.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: 
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: Finished privacy evaluation.
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: ----------------------------------------------------------------------------------------------------
+22-Mar-2024 16:26:21 (+0100) :Evaluation: INFO: 
+22-Mar-2024 16:26:25 (+0100) :Alecsa: DEBUG: exiting control loop
+22-Mar-2024 16:26:25 (+0100) :Alecsa: DEBUG: Tearing down
+22-Mar-2024 16:26:25 (+0100) :Alecsa: DEBUG: Exiting
+22-Mar-2024 16:26:25 (+0100) :Alecsa: DEBUG: main exit PID 84362

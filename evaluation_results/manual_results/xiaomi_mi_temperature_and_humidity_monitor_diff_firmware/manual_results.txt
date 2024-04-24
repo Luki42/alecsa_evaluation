@@ -1,0 +1,27 @@
+Device Address: a4:c1:38:82:7d:b1
+Device Name: ATC_827DB1
+
+Number of recorded Connections: 1
+
+Connection 1:
+Access Address: 0x506563de
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: no
+Association Model: -
+Pairing Packets as Expected: -
+
+Encryption: no
+Encryption Setup Detected: -
+
+
+
+Privacy Protection:
+
+Device Address Type: public
+Random Address Type: -
+
+

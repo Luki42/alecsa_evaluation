@@ -1,0 +1,39 @@
+Device Address: fd:60:ea:3b:c6:a0
+Device Name: 07369DEI
+
+Number of recorded Connections: 2
+
+Connection 1:
+Access Address: 0xaf9aad61
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: no
+Association Model: -
+Pairing Packets as Expected: -
+
+Encryption: no
+Encryption Setup Detected: -
+
+Connection 2:
+Access Address: 0xaf9a9d66
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: yes
+Association Model: LE Secure Connections Out of Band
+Pairing Packets as Expected: yes
+
+Encryption: yes
+Encryption Setup Detected: yes
+
+Privacy Protection:
+
+Device Address Type: random
+Random Address Type: resolvable
+
+

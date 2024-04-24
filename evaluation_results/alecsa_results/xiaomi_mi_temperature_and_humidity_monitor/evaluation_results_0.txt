@@ -1,0 +1,115 @@
+
+
+____________________________________________________________________________________________________
+|                                                                                                  |
+|                                                                                                  |
+|                                       EVALUATION RESULTS                                         |
+|                                                                                                  |
+|__________________________________________________________________________________________________|
+
+
+Reading Pcap File. This may take a while.
+Finished reading of Pcap File.
+Starting evaluation of device a4:c1:38:fa:f6:1c.
+Device Name: "LYWSD03MMC"
+
+Determining recorded connections.
+Connection detected.
+Access Address of the Connection is: 0xaf9a8d5a.
+Communicating devices:
+Central device address: 5e:da:e9:6d:04:51.
+Peripheral device address: a4:c1:38:fa:f6:1c.
+Number of recorded connections for device address a4:c1:38:fa:f6:1c: 1.
+Alecsa will now start to analyze the recorded connection.
+
+
+----------------------------------------------------------------------------------------------------
+Starting evaluation of connection: 0xaf9a8d5a.
+----------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------------
+|                                         PAIRING PROCESS                                          |
+----------------------------------------------------------------------------------------------------
+
+Searching for pairing process.
+No pairing process detected.
+For Pairing the SMP protocol is used.
+No SMP packets found.
+Either the devices do not pair or a non standard pairing procedure is used.
+
+----------------------------------------------------------------------------------------------------
+|                                           ENCRYPTION                                             |
+----------------------------------------------------------------------------------------------------
+
+No encryption process detected.
+No packets found which would be needed to start encrypted communication between 
+the devices.
+Either the devices communicate unencrypted or use a non standard encryption procedure.
+If the devices communicate unencrypted, every person within receivable range 
+of your devices having a BLE monitoring device can read the data your 
+devices transmit.
+There is no confidentiality protection for this connection.
+If the devices use a non standard protocol for encryption, the confidentiality 
+depends on the strength of the used protocol and the correctness of 
+its implementation.
+
+Evaluation of encryption process finished.
+No encryption process was detected.
+
+----------------------------------------------------------------------------------------------------
+|                                        CONNECTION RESULTS                                        |
+----------------------------------------------------------------------------------------------------
+
+Pairing:
+
+No pairing process detected.
+
+
+Encryption:
+
+No encryption process detected.
+
+
+No pairing process was found and no encryption process was detected.
+Either the devices use a complete non standard procedure for pairing and encryption
+or there is no pairing and encryption used.
+
+
+----------------------------------------------------------------------------------------------------
+Finished evaluation of connection: 0xaf9a8d5a.
+----------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------------
+|                                        PRIVACY EVALUATION                                        |
+----------------------------------------------------------------------------------------------------
+
+BLE Devices are identified using a 48 bit long address.
+If such a devices is in advertising state, it continuously broadcasts
+this address.
+If this address is not changed, a user carrying such a device can be tracked
+by tracking the devices address.
+This is a threat to the users privacy.
+
+Addresses can have different types in order to avoid user tracking.
+By determining the type of the address, it is possible to determine the 
+risk of being tracked by the devices address.
+
+Determining BLE Address Type.
+BLE Address Type can be found in the packet header of advertising packets.
+Analyzing packet headers to determine the BLE Address type.
+BLE Address Type determined.
+BLE Address Type: Public.
+A Public Device Address is a unique 48 Bit identifier.
+It is composed of a company identifier and a company intern unique number for the device.
+This address does never change.
+
+Impacts on the User:
+If a user carries this device with him, and the device is in advertising mode,
+user tracking is possible by tracking the device's address.
+
+----------------------------------------------------------------------------------------------------
+Finished privacy evaluation.
+----------------------------------------------------------------------------------------------------
+

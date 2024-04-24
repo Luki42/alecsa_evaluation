@@ -1,0 +1,27 @@
+Device Address: dc:2c:6e:18:6d:f1
+Device Name: -
+
+Number of recorded Connections: 1
+
+Connection 1:
+Access Address: 0x50657c61
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: no
+Association Model: -
+Pairing Packets as Expected: -
+
+Encryption: no
+Encryption Setup Detected: -
+
+
+
+Privacy Protection:
+
+Device Address Type: public
+Random Address Type: -
+
+

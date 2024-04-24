@@ -1,0 +1,27 @@
+Device Address: 70:4a:0e:c9:2d:d3
+Device Name: WifiConfigurator
+
+Number of recorded Connections: 1
+
+Connection 1:
+Access Address: 0x506544ef
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: yes
+Association Model: LE Secure Connections Just Works
+Pairing Packets as Expected: yes
+
+Encryption: yes
+Encryption Setup Detected: yes
+
+
+
+Privacy Protection:
+
+Device Address Type: public
+Random Address Type: -
+
+

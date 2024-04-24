@@ -1,0 +1,27 @@
+Device Address: e5:05:39:fa:3e:65
+Device Name: -
+
+Number of recorded Connections: 1
+
+Connection 1:
+Access Address: 0x50655d5b
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: no
+Association Model: -
+Pairing Packets as Expected: -
+
+Encryption: no
+Encryption Setup Detected: -
+
+
+
+Privacy Protection:
+
+Device Address Type: random
+Random Address Type: static
+
+

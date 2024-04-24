@@ -1,0 +1,27 @@
+Device Address: c7:3e:0e:ec:06:3f
+Device Name: AB0202000100002603
+
+Number of recorded Connections: 1
+
+Connection 1:
+Access Address: 0xaf9aa319
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: no
+Association Model: -
+Pairing Packets as Expected: -
+
+Encryption: no
+Encryption Setup Detected: -
+
+
+
+Privacy Protection:
+
+Device Address Type: random
+Random Address Type: static
+
+

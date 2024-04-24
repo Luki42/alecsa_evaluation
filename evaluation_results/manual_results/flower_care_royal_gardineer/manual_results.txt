@@ -1,0 +1,27 @@
+Device Address: c4:7c:8d:6d:38:47
+Device Name: Flower care
+
+Number of recorded Connections: 1
+
+Connection 1:
+Access Address: 0x50657219
+
+
+
+Confidentialiy Protection:
+
+Pairing Process: no
+Association Model: -
+Pairing Packets as Expected: -
+
+Encryption: no
+Encryption Setup Detected: -
+
+
+
+Privacy Protection:
+
+Device Address Type: public
+Random Address Type: -
+
+
